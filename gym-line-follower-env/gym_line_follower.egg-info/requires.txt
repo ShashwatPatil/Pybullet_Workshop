@@ -1,0 +1,6 @@
+gym
+pybullet
+opencv-python
+shapely
+numpy
+scipy
