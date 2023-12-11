@@ -29,7 +29,7 @@ pip install -e .
 
 ## Objective
 
-The goal of this round is to make the robot car follow the line given in the arena by controlling the motors of the robot car. The movement of the robot has to be entirely autonomous. If the car comes back to its initial position after completing one lap of the track, the objective of the Task will be achieved.
+The goal is to make the robot car follow the line given in the arena by controlling the motors of the robot car. The movement of the robot has to be entirely autonomous. If the car comes back to its initial position after completing one lap of the track, the objective of the Task will be achieved.
 
 ## Using the Arena
 
@@ -37,7 +37,7 @@ The goal of this round is to make the robot car follow the line given in the are
 
 2. In solution.py, you'll see a working loop. You'll have to write the code to control the robot within this working loop. 
 
-3. There are several functions in [helper.py](https://github.com/Robotics-Club-IIT-BHU/FreshersEvent_PS1Arena/blob/main/gym-line-follower-env/gym_line_follower/helper.py) for you to navigate the arena. Their names and use cases are as follows: 
+3. There are several functions in [helper.py](https://github.com/ShashwatPatil/Pybullet_Workshop/blob/main/gym-line-follower-env/gym_line_follower/helper.py) for you to navigate the arena. Their names and use cases are as follows: 
 
    - `husky.get_full_path()` 
      This function will return an array of the path. Each element of this array will have the x and y coordinates of the path at the 0th and 1st index. 
