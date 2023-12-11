@@ -1,7 +1,7 @@
 # Pybullet_Workshop
 Pybullet workshop for batch of 2023 
 
-## Installation
+## Installation For Task 2
 
 We recommend you to go through the pybullet and OpenCV installation video before moving forward to setup the project. 
 
@@ -13,7 +13,7 @@ git clone https://github.com/ShashwatPatil/Pybullet_Workshop.git
 
 ### STEP 2: Change your current directory to the env's root.
 ```bash
-cd LaRoboLiga_PS1Arena/gym-line-follower-env/
+cd Pybullet_Workshop/gym-line-follower-env/
 ```
 
 
@@ -29,7 +29,7 @@ pip install -e .
 
 ## Objective
 
-The goal of this round is to make the robot car follow the line given in the arena by controlling the motors of the robot car. The movement of the robot has to be entirely autonomous. If the car comes back to its initial position after completing one lap of the track, the objective of the PS will be achieved. You may refer to this [workshop](https://youtu.be/RkHvUSGgw6Q) for insights into robot controls. 
+The goal of this round is to make the robot car follow the line given in the arena by controlling the motors of the robot car. The movement of the robot has to be entirely autonomous. If the car comes back to its initial position after completing one lap of the track, the objective of the Task will be achieved.
 
 ## Using the Arena
 
