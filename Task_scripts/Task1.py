@@ -18,8 +18,7 @@ VISUAL_CAM_SETTINGS = dict({
 ##########################################################
 """
 Your task is to use env.move() and p.getKeyboardEvents() to control the husky using the arrow keys
-of you keyboard and make the husky stop when the spacebar is pressed (like games :D
-
+of you keyboard and make the husky stop when the spacebar is pressed just like games :D
 """
 ##########################################################
 
