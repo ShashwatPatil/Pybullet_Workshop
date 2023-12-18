@@ -2,4 +2,3 @@ gym==0.22.0
 opencv-python==4.6.0.66
 opencv-contrib-python==4.6.0.66
 numpy
-scipy
