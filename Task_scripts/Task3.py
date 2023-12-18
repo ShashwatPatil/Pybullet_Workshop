@@ -3,10 +3,7 @@
 ## Library Imports :: ---
 import gym
 import os
-import time as t
-import pybullet as p
 import pybullet_workshop_23
-import numpy as np
 import cv2
 
 CAR_LOCATION = [-0.7,8.5,1.5]
@@ -39,3 +36,9 @@ env = gym.make('pybullet_workshop_23',
 
 
 ###################### Write your code from here ###########################
+
+while True:
+    img = env.get_image(cam_height=0, dims=[512,512])
+    k = cv2.waitKey(100)
+    if k == ord('q'):
+        break

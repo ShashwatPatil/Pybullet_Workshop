@@ -1,8 +1,9 @@
 import gym
 import os
 import time as t
-import pybullet as p
 import pybullet_workshop_23
+import cv2
+
 
 CAR_LOCATION = [2,3,1.5]
 # BALL_LOCATION = [4,5,1.5]

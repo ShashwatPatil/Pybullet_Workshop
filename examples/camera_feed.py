@@ -24,7 +24,7 @@ env = gym.make('pybullet_workshop_23',
 )
 
 while True:
-    img = env.get_image(cam_height=0, dims=[600,600])
+    img = env.get_image(cam_height=0, dims=[512,512])
     cv.imshow("img", img)
     k = cv.waitKey(1)
     if k==ord('q'):

@@ -77,7 +77,6 @@ vel=[[0,0],
 # env.open_grip()
 while True:
     # p.stepSimulation()
-    keys = p.getKeyboardEvents()
     img = env.get_image(cam_height=0, dims=[600, 600])
     img = cv2.flip(img, 5)
 
